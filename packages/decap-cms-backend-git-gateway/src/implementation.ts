@@ -323,7 +323,7 @@ export default class GitGateway implements Implementation {
         const userRoles = get(jwtDecode(token), 'app_metadata.roles', []);
         const validRole = intersection(userRoles, this.acceptRoles).length > 0;
         if (!validRole) {
-          throw new Error("You don't have sufficient permissions to access Decap CMS");
+          throw new Error("You don't have sufficient permissions to access Startr Web-Admin");
         }
       }
 
@@ -360,7 +360,7 @@ export default class GitGateway implements Implementation {
       }
 
       if (!(await this.api!.hasWriteAccess())) {
-        throw new Error("You don't have sufficient permissions to access Decap CMS");
+        throw new Error("You don't have sufficient permissions to access Startr Web-Admin");
       }
       return {
         name: userData.name,

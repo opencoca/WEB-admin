@@ -1,6 +1,6 @@
 {
   "name": "decap-cms-widget-colorstring",
-  "description": "Widget for editing color strings in Decap CMS.",
+  "description": "Widget for editing color strings in Startr Web-Admin.",
   "version": "3.1.3",
   "homepage": "https://www.decapcms.org/docs/widgets/#color",
   "repository": "https://github.com/decaporg/decap-cms/tree/main/packages/decap-cms-widget-colorstring",

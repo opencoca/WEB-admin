@@ -59,7 +59,7 @@ describe('uploadcare media library', () => {
       });
 
     /**
-     * Spy to serve as the Decap CMS insertion handler.
+     * Spy to serve as the Startr Web-Admin insertion handler.
      */
     handleInsert = jest.fn();
   });

@@ -34,6 +34,6 @@ const level = process.env.LOG_LEVEL || 'info';
   }
 
   return app.listen(port, () => {
-    logger.info(`Decap CMS Proxy Server listening on port ${port}`);
+    logger.info(`Startr Web-Admin Proxy Server listening on port ${port}`);
   });
 })();

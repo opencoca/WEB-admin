@@ -159,5 +159,5 @@ export async function registerMiddleware(app: express.Express, options: Options)
   const repoPath = path.resolve(process.env.GIT_REPO_DIRECTORY || process.cwd());
   app.post('/api/v1', joi(getSchema({ repoPath })));
   app.post('/api/v1', localFsMiddleware({ repoPath, logger }));
-  logger.info(`Decap CMS File System Proxy Server configured with ${repoPath}`);
+  logger.info(`Startr Web-Admin File System Proxy Server configured with ${repoPath}`);
 }

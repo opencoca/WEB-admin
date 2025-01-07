@@ -1,5 +1,5 @@
-# Decap CMS App
-_For a Decap CMS overview, see the general [Decap CMS project README](https://github.com/decaporg/decap-cms)._
+# Startr Web-Admin App
+_For a Startr Web-Admin overview, see the general [Startr Web-Admin project README](https://github.com/decaporg/decap-cms)._
 
 ## Purpose
 This package is similar to the [`decap-cms`](https://github.com/decaporg/decap-cms/tree/main/packages/decap-cms/) package, but is designed for use with extensions. It serves that purpose in the following ways.

@@ -435,7 +435,7 @@ export async function detectProxyServer(localBackend?: boolean | CmsLocalBackend
       : localBackend.url || defaultUrl.replace('localhost', location.hostname);
 
   try {
-    console.log(`Looking for Decap CMS Proxy Server at '${proxyUrl}'`);
+    console.log(`Looking for Startr Web-Admin Proxy Server at '${proxyUrl}'`);
     const res = await fetch(`${proxyUrl}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -447,14 +447,14 @@ export async function detectProxyServer(localBackend?: boolean | CmsLocalBackend
       type?: string;
     };
     if (typeof repo === 'string' && Array.isArray(publish_modes) && typeof type === 'string') {
-      console.log(`Detected Decap CMS Proxy Server at '${proxyUrl}' with repo: '${repo}'`);
+      console.log(`Detected Startr Web-Admin Proxy Server at '${proxyUrl}' with repo: '${repo}'`);
       return { proxyUrl, publish_modes, type };
     } else {
-      console.log(`Decap CMS Proxy Server not detected at '${proxyUrl}'`);
+      console.log(`Startr Web-Admin Proxy Server not detected at '${proxyUrl}'`);
       return {};
     }
   } catch {
-    console.log(`Decap CMS Proxy Server not detected at '${proxyUrl}'`);
+    console.log(`Startr Web-Admin Proxy Server not detected at '${proxyUrl}'`);
     return {};
   }
 }

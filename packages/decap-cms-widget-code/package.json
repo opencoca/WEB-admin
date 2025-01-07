@@ -1,6 +1,6 @@
 {
   "name": "decap-cms-widget-code",
-  "description": "Widget for editing code in Decap CMS",
+  "description": "Widget for editing code in Startr Web-Admin",
   "version": "3.1.4",
   "homepage": "https://www.decapcms.org/docs/widgets/#code",
   "repository": "https://github.com/decaporg/decap-cms/tree/main/packages/decap-cms-widget-code",

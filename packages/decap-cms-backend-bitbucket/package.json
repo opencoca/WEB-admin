@@ -1,6 +1,6 @@
 {
   "name": "decap-cms-backend-bitbucket",
-  "description": "Bitbucket backend for Decap CMS",
+  "description": "Bitbucket backend for Startr Web-Admin",
   "version": "3.1.4",
   "repository": "https://github.com/decaporg/decap-cms/tree/main/packages/decap-cms-backend-bitbucket",
   "bugs": "https://github.com/decaporg/decap-cms/issues",

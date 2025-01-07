@@ -52,7 +52,7 @@ describe('Markdown widget link', () => {
         cy.stub(win, 'prompt').returns(link);
       });
 
-      const text = 'Decap CMS';
+      const text = 'Startr Web-Admin';
       cy.focused()
         .getMarkdownEditor()
         .type(text)

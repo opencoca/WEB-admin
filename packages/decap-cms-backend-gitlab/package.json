@@ -1,6 +1,6 @@
 {
   "name": "decap-cms-backend-gitlab",
-  "description": "GitLab backend for Decap CMS",
+  "description": "GitLab backend for Startr Web-Admin",
   "version": "3.2.2",
   "repository": "https://github.com/decaporg/decap-cms/tree/main/packages/decap-cms-backend-gitlab",
   "bugs": "https://github.com/decaporg/decap-cms/issues",

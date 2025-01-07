@@ -1,6 +1,6 @@
 {
   "name": "decap-cms-widget-datetime",
-  "description": "Widget for editing dates and times in Decap CMS.",
+  "description": "Widget for editing dates and times in Startr Web-Admin.",
   "version": "3.2.3",
   "homepage": "https://www.decapcms.org/docs/widgets/#datetime",
   "repository": "https://github.com/decaporg/decap-cms/tree/main/packages/decap-cms-widget-datetime",

@@ -165,7 +165,7 @@ async function init({ options = { config: {}, settings: {} }, handleInsert } = {
 
     /**
      * Uploadcare doesn't provide a "media library" widget for viewing and
-     * selecting existing files, so we return `false` here so Decap CMS only
+     * selecting existing files, so we return `false` here so Startr Web-Admin only
      * opens the Uploadcare widget when called from an editor control. This
      * results in the "Media" button in the global nav being hidden.
      */

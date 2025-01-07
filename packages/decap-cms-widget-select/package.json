@@ -1,6 +1,6 @@
 {
   "name": "decap-cms-widget-select",
-  "description": "Selectable values widget for Decap CMS.",
+  "description": "Selectable values widget for Startr Web-Admin.",
   "version": "3.2.2",
   "homepage": "https://www.decapcms.org/docs/widgets/#select",
   "repository": "https://github.com/decaporg/decap-cms/tree/main/packages/decap-cms-widget-select",

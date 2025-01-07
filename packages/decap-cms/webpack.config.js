@@ -24,7 +24,7 @@ const baseConfig = {
     }),
     new FriendlyErrorsWebpackPlugin({
       compilationSuccessInfo: {
-        messages: [`Decap CMS is now running at http://localhost:${devServerPort}`],
+        messages: [`Startr Web-Admin is now running at http://localhost:${devServerPort}`],
       },
     }),
     new CopyWebpackPlugin({ patterns: [{ from: './shims/cms.css', to: './' }] }),

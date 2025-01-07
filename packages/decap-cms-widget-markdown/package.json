@@ -1,6 +1,6 @@
 {
   "name": "decap-cms-widget-markdown",
-  "description": "Widget for editing markdown in Decap CMS.",
+  "description": "Widget for editing markdown in Startr Web-Admin.",
   "version": "3.2.0",
   "homepage": "https://www.decapcms.org/docs/widgets/#markdown",
   "repository": "https://github.com/decaporg/decap-cms/tree/main/packages/decap-cms-widget-markdown",

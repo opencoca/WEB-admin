@@ -4,7 +4,7 @@ import { DecapCmsApp as CMS } from 'decap-cms-app/dist/esm';
 import './extensions';
 
 /**
- * Load Decap CMS automatically if `window.CMS_MANUAL_INIT` is set.
+ * Load Startr Web-Admin automatically if `window.CMS_MANUAL_INIT` is set.
  */
 if (!window.CMS_MANUAL_INIT) {
   CMS.init();

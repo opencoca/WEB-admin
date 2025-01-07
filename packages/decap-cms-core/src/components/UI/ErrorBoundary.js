@@ -22,7 +22,7 @@ function getIssueTemplate({ version, provider, browser, config }) {
 **Screenshots**
 
 **Applicable Versions:**
- - Decap CMS version: \`${version}\`
+ - Startr Web-Admin version: \`${version}\`
  - Git provider: \`${provider}\`
  - Browser version: \`${browser}\`
 

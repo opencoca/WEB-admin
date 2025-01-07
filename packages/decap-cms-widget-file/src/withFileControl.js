@@ -220,7 +220,7 @@ function valueListToSortableArray(value) {
 
 const warnDeprecatedOptions = once(field =>
   console.warn(oneLine`
-  Decap CMS config: ${field.get('name')} field: property "options" has been deprecated for the
+  Startr Web-Admin config: ${field.get('name')} field: property "options" has been deprecated for the
   ${field.get('widget')} widget and will be removed in the next major release. Rather than
   \`field.options.media_library\`, apply media library options for this widget under
   \`field.media_library\`.

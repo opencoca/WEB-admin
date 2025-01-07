@@ -1,6 +1,6 @@
-# Decap CMS Proxy Server
+# Startr Web-Admin Proxy Server
 
-Decap CMS Proxy Server is an express server created to facilitate local development.
+Startr Web-Admin Proxy Server is an express server created to facilitate local development.
 
 ## How It Works
 

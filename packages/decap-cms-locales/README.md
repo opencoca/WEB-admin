@@ -1,6 +1,6 @@
-# Decap CMS Locales
+# Startr Web-Admin Locales
 
-## Default translations for Decap CMS
+## Default translations for Startr Web-Admin
 
 The English translation is loaded by default.
 

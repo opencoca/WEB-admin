@@ -357,7 +357,7 @@ export default class GitHub implements Implementation {
 
         If the repo is private, make sure you're logged into a GitHub account with access.
 
-        If your repo is under an organization, ensure the organization has granted access to Decap CMS.
+        If your repo is under an organization, ensure the organization has granted access to Startr Web-Admin.
       `;
       throw error;
     });

@@ -103,7 +103,7 @@ We actively welcome your pull requests!
 
 If you need help with Git or our workflow, please ask in our [community chat](https://decapcms.org/chat). We want your contributions even if you're just learning Git. Our maintainers are happy to help!
 
-Decap CMS uses the [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) + [Feature Branches](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow). Additionally, PR's should be [rebased](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) on main when opened, and again before merging.
+Startr Web-Admin uses the [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) + [Feature Branches](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow). Additionally, PR's should be [rebased](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) on main when opened, and again before merging.
 
 1. Fork the repo.
 2. Create a branch from `main`. If you're addressing a specific issue, prefix your branch name with the issue number.
@@ -134,7 +134,7 @@ backend:
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Decap CMS</title>
+    <title>Startr Web-Admin</title>
   </head>
   <body>
     <script src="dist/decap-cms.js"></script>
@@ -145,7 +145,7 @@ backend:
   </body>
 </html>
 ```
-The most important thing is to make sure that Decap CMS is loaded from the `dist` folder. This way, every time you make changes to the source code, they will be compiled and reflected immediately on `localhost`.
+The most important thing is to make sure that Startr Web-Admin is loaded from the `dist` folder. This way, every time you make changes to the source code, they will be compiled and reflected immediately on `localhost`.
 
 3. Run `npm run start`
 4. Open `http://localhost:8080/` in the browser and you should have access to the CMS
@@ -195,5 +195,5 @@ For more information about running tests exactly the way you want, check out the
 
 ## License
 
-By contributing to Decap CMS, you agree that your contributions will be licensed
+By contributing to Startr Web-Admin, you agree that your contributions will be licensed
 under its [MIT license](LICENSE).

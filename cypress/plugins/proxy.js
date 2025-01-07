@@ -45,7 +45,7 @@ const startServer = async (repoDir, mode) => {
     serverProcess.stdout.on('data', data => {
       const message = data.toString().trim();
       console.log(`server:stdout: ${message}`);
-      if (message.includes('Decap CMS Proxy Server listening on port')) {
+      if (message.includes('Startr Web-Admin Proxy Server listening on port')) {
         resolve(serverProcess);
       }
     });

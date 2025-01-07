@@ -1,6 +1,6 @@
 # Docs coming soon!
 
-Decap CMS was converted from a single npm package to a "monorepo" of over 20 packages.
+Startr Web-Admin was converted from a single npm package to a "monorepo" of over 20 packages.
 We haven't created a README for this package yet, but you can:
 
 1. Check out the [main readme](https://github.com/decaporg/decap-cms/#readme) or the [documentation

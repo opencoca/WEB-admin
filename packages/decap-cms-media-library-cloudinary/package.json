@@ -1,6 +1,6 @@
 {
   "name": "decap-cms-media-library-cloudinary",
-  "description": "Cloudinary integration for Decap CMS",
+  "description": "Cloudinary integration for Startr Web-Admin",
   "version": "3.0.3",
   "repository": "https://github.com/decaporg/decap-cms/tree/main/packages/decap-cms-media-library-cloudinary",
   "bugs": "https://github.com/decaporg/decap-cms/issues",

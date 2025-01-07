@@ -1,5 +1,5 @@
 # Changelog
-Decap CMS is a collection of npm packages with their own versions and changelogs, each listed
+Startr Web-Admin is a collection of npm packages with their own versions and changelogs, each listed
 below. The legacy pre-2.0 changelog is below as well.
 
 ## Core and distributions
